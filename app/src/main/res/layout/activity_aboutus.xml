@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/appBackground"
+    android:orientation="vertical"
+    tools:context=".AboutusActivity">
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/hqdefault" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ગૌણસેવા  સચિવાલય, બિનસચિવાલય અને પંચાયત સેવા ની તલાટી અને જુ ક્લાર્ક ની તૈયારી માટે અમારી ચેનલ follow and subscribe કરો."
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vatsalya Coaching Academy"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:autoLink="all"
+        android:clickable="true"
+        android:singleLine="true"
+        android:text="https://www.youtube.com/channel/UCspnM_RwNRreU4rzUJncdXA" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="By:-Purvesh Khatri"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:layout_gravity="right"
+        android:layout_marginRight="30dp"/>
+</LinearLayout>
